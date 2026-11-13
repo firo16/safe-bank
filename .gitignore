@@ -1,0 +1,30 @@
+# Środowisko Pythona
+.venv/
+venv/
+
+# Pliki tymczasowe Pythona
+__pycache__/
+*.pyc
+
+# Pytest
+.pytest_cache/
+
+# Edytory
+.idea/
+.vscode/
+
+# Lokalne bazy danych
+*.db
+*.sqlite
+*.sqlite3
+
+# Sekrety i konfiguracja lokalna
+.env
+
+# Frontend, później
+node_modules/
+dist/
+
+# System
+.DS_Store
+Thumbs.db
